@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand: #14665e;
+  --color-deal-soft: #ffe7d4;
+  --color-surface-tint: #edf5f2;
+  --color-discount: #963b25;
+  --color-action: #233551;
+  --color-action-hover: #17263e;
+}
+
+body { background: #fffcf7; color: #222; font-family: Pretendard, "Apple SD Gothic Neo", "Malgun Gothic", system-ui, sans-serif; }
+button:not(:disabled), select { cursor: pointer; }
+:focus-visible { outline: 2px solid var(--color-brand); outline-offset: 3px; }
+input:focus-visible { outline-offset: 5px; }
